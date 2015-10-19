@@ -1,0 +1,441 @@
+@import url(http://fonts.googleapis.com/css?family=Julius+Sans+One);
+
+*{
+	margin: 0px ;
+	padding: 0;
+	font-family: 'Julius Sans One', sans-serif;
+
+}
+
+/*Menu fijo*/
+
+nav#menu_fijo {
+    top: 0px;
+    width: 100%;
+    height: 70px;
+    background-color: #3C3C3C;
+    z-index: 20;
+    overflow: hidden;
+    transition: height 0.5s ease 0s;
+}
+
+.macbook {
+    margin: 0px auto;
+    background-image: url(../pictures/m.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 1060px;
+    height: 743px;
+    overflow: hidden;
+}
+
+.top-gap {
+    margin-top: 100px !important;
+}
+
+.macbook .pantalla {
+    display: block;
+    width: 788px;
+    height: 485px;
+    position: relative;
+    margin: 34.4px 0px 0px 137.9px;
+}
+
+
+
+
+
+
+section#contenedor_general{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+	z-index: -1;
+	background-image: url(../pictures/mapa.jpg);
+	background-size: cover;
+	background-position: center 0px;
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+
+
+section#body{
+	width: 100%;
+	min-height: 300px;
+	overflow: hidden;
+}
+section#scrolldown{
+	margin: auto;
+	width: 200px;
+	height: 60px;
+}
+
+
+p#titulo{
+	text-align: center;
+	font-weight: lighter;
+	font-size: 1.5em;
+	color: #BABABA;
+}
+
+p#menorque{
+	-webkit-transform: rotate(270deg);
+	text-align: center;
+	color: #6DCAEC;
+	font-size: 1.3em;
+}
+
+
+
+section#seccion{
+	width: 100%;
+	height: 850px;
+	margin-top: 0px;
+	background-color: #f2f2f2;
+}
+
+/*Seccion en la que van los datos estadisticos*/
+section#seccion2{
+    width: 100%;
+    height: 700px;
+    margin-top: 900px;
+    background-color: #f2f2f2;
+}
+
+
+
+
+section#headermenu
+{
+width: 100%;
+}
+nav.navegador_inicio {
+    display: table;
+    margin: auto;
+}
+ul.menu {
+    margin: auto;
+    display: block;
+    list-style: outside none none;
+    overflow: hidden;
+}
+ul.menu a {
+    text-decoration: none;
+}
+ul.menu li {
+    float: left;
+    padding: 2px;
+    margin: 25px;
+    color: #6DCAEC;
+}
+.footer{
+	padding: 15px;
+	margin: 0;
+	text-align: center;
+	background: #3C3C3C;
+	color: white;
+}
+.footer p{
+	margin: 0;
+}
+.footer a{
+	color: #6DCAEC;
+}
+.footer a:hover{
+	color: #8890FF;
+}
+
+/*div#articulo{
+	width: 100%;
+	height: 300px;
+	background-color: blue;
+}
+
+
+articulo argumento
+div#bodym{
+	margin: auto;
+	width: 960px;
+	height: 250px;
+	background-color: red;*/
+}
+
+
+
+
+/*css datos estadisticos*/
+
+#jsn-promo, #jsn-content-top {
+    position: relative;
+    z-index: 88;
+    overflow: hidden;
+}
+
+#jsn-promo {
+    margin-bottom: 10px;
+}
+#jsn-promo-inner {
+    background: #FFF none repeat scroll 0% 0%;
+}
+#jsn-promo #jsn-pos-promo, #jsn-promo #jsn-pos-promo-left, #jsn-promo #jsn-pos-promo-right {
+    position: relative;
+}
+div.jsn-modulecontainer:first-child, div.jsn-horizontallayout div.jsn-modulecontainer {
+    margin-top: 0px;
+}
+div.jsn-modulecontainer {
+    background: #FFF none repeat scroll 0% 0%;
+}
+#jsn-page {
+    color: #3D3D3D;
+    text-align: left;
+}
+
+body.jsn-textstyle-business .jsn-moduletitle {
+    font-weight: 300;
+}
+a {
+    color: #57BAE8;
+}
+
+h3.jsn-moduletitle span {
+    display: block;
+}
+
+#jsn-promo #jsn-pos-promo .jsn-modulecontent {
+    padding: 0px;
+}
+
+elemento {
+    width: 100%;
+    height: 600px;
+}
+
+.ja-google-chart {
+}
+
+elemento {
+    position: relative;
+    width: 960px;
+    height: 600px;
+}
+elemento {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+}
+elemento {
+    overflow: hidden;
+}
+
+iframe, svg {
+    max-width: 100%;
+}
+
+elemento {
+
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+
+}
+elemento {
+    display: none;
+    position: absolute;
+    top: 610px;
+    left: 970px;
+    white-space: nowrap;
+    font-family: arial;
+    font-size: 9px;
+}
+.clearbreak {
+    clear: both;
+}
+
+p#titulo_datos_estadisticos
+{
+    
+
+    color: #6DCAEC;
+    text-align: center;
+    font-size: 1.2em;
+
+}
+fn#final{
+    color: #6DCAEC;
+    text-align: center;
+    font-size: 0.5em;
+
+}
+
+p.titulo_seccion {
+    display: block;
+    font-size: 1.3em;
+    text-align: left;
+    color: #0101DF;
+    font-weight: lighter;
+}
+
+
+/*Formulario*/
+
+section#denuncia {
+    width: 100%;
+    height: 125px;
+   
+    
+}
+
+.box{
+
+
+
+    opacity: 0.7;
+    background: #1C1C1C;
+    width: 0px  auto;
+    height: 1026px;
+    line-height: center;
+    color:#6DCAEC;
+    box-shadow: 10px 10px 100px black;
+}
+
+
+
+
+p#titulo_denuncia {
+    color: #6DCAEC;
+}
+
+p.titulo_seccion {
+    display: block;
+    margin-top: 0px;
+    font-size: 1.3em;
+    text-align: center;
+    color: #0101DF;
+    font-weight: lighter;
+}
+
+div#contenedor_formulario {
+    margin: 40px  auto;
+    max-width: 1000px;
+    min-height: 200px;
+    overflow: hidden;
+    padding: 20px;
+    font-size: 1.3em;
+}
+
+
+input[type="radio"]
+{
+
+    -webkit-border-radius: 5px;
+    float: right;
+}
+
+div#contenedor_edades{
+    margin: 10px;
+    width: 100px;
+}
+p#espacio{
+    margin: 20px;
+
+}
+label#tab{
+    width: 90px;
+}
+
+
+
+
+input#boton_enviar {
+    float: right;
+    margin-top: 20px;
+    background-color: transparent;
+    border: 1px solid #6DCAEC;
+    border-radius: 4px;
+    color: #6DCAEC;
+    padding: 10px 25px;
+    transition: background-color 0.3s ease 0s, color 0.3s ease 0s;
+    cursor: pointer;
+}
+
+textarea#descripcion_robo
+{
+    border: 1px solid #6DCAEC;
+}
+
+select#cbosexo
+{
+     border: 1px solid #6DCAEC;
+}
+input.input_form {
+    
+    border: 1px solid #6DCAEC;
+    
+}
+
+select#cborobos
+{
+     border: 1px solid #6DCAEC;
+    
+}
+
+select#cbbarriosdistrito2
+{
+     border: 1px solid #6DCAEC;
+    
+}
+
+select#cbbarriosdistrito3
+{
+     border: 1px solid #6DCAEC;
+    
+}
+
+select#cbbarriosdistrito4
+{
+     border: 1px solid #6DCAEC;
+    
+}
+
+
+select#cbpolicia
+{
+     border: 1px solid #6DCAEC;
+    
+}
+
+
+select#cbresuelto
+{
+     border: 1px solid #6DCAEC;
+    
+}
+
+/*Acerca de nosotros*/
+
+
+section#acerca_de_nosotros{
+    width: 100%;
+    height: 200px;
+    margin-top: 0px;
+    background-color: #3C3C3C;
+}
+
+p#titulo_acerca_de_nosotros
+{
+    
+    
+    color: #6DCAEC;
+    text-align: center;
+    font-size: 1.2em;
+
+}
+
